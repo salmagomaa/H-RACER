@@ -1439,7 +1439,7 @@ int main(int argc, char* argv[])
 	// Check Arguments
 	if (argc != 4) {
 		cout << "ERROR: Wrong number of arguments!\n";
-		cout << "Usage: ./RACER <inputReads> <correctedReads> <genomeLength>" << endl << flush;
+		cout << "Usage: ./hracer <inputReads> <correctedReads> <genomeLength>" << endl << flush;
 		cout << "Please consult the readme file for more information on how to run the program." << endl << flush;
 		exit(EXIT_FAILURE);
 	}
